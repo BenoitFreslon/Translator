@@ -150,3 +150,42 @@ ALTER TABLE `tr_translator`
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+INSERT INTO `tr_translator` (`id_translator`, `id_language`, `nickname`, `password`, `email`) VALUES
+(2, 6, 'admin', 'root2017', 'contact@benoitfreslon.com');
+
+INSERT INTO `tr_language` (`id_language`, `code`, `language`, `english`, `representation`, `parent_id_language`) VALUES
+(1, 'en', 'English', 'English', 'en_US', NULL),
+(2, 'fr', 'FranÃ§ais', 'French', 'fr_FR', NULL),
+(3, 'de', 'Deutsch', 'German', 'de_DE', NULL),
+(4, 'es', 'EspaÃ±ol', 'Spanish', 'es_ES', NULL),
+(5, 'it', 'Italiano', 'Italian', 'it_IT', NULL),
+(6, 'ru', 'PÑƒÑÑÐºÐ¸Ð¹ ÑÐ·Ñ‹Ðº', 'Russian', 'ru_RU', NULL),
+(8, 'pl', 'Polish', 'Polish', 'pl_PL', NULL),
+(10, 'pt', 'PortuguÃªs', 'Portuguese', 'pt_PT', NULL),
+(11, 'cs', 'ÄeÅ¡tina', 'Czech', 'cs_CZ', NULL),
+(12, 'da', 'Dansk', 'Danish', 'da_DK', NULL),
+(13, 'nl', 'Nederlands', 'Dutch', 'nl_NL', NULL),
+(14, 'fi', 'Suomi', 'Finnish', 'fi_FI', NULL),
+(15, 'hu', 'Magyar', 'Hungarian', 'hu_HU', NULL),
+(16, 'ja', 'æ—¥æœ¬èªž', 'Japanese', 'ja_JP', NULL),
+(18, 'ko', 'í•œêµ­ì–´', 'Korean', 'ko_KR', NULL),
+(19, 'no', 'Norsk', 'Norwegian', 'nb_NO', NULL),
+(20, 'zh-CN', 'ç®€ä½“ä¸­æ–‡', 'Chinese', 'zh_CN', NULL),
+(21, 'sv', 'Svenska', 'Swedish', 'sv_SE', NULL),
+(22, 'zh-TW', 'ä¸­æ–‡', 'Traditional Chinese', 'zh_TW', 20),
+(23, 'tr', 'TÃ¼rkÃ§e', 'Turkish', 'tr_TR', NULL),
+(24, 'bg', 'Ð‘ÑŠÐ»Ð³Ð°Ñ€ÑÐºÐ¸ ÐµÐ·Ð¸Ðº', 'Bulgarian', 'bg_BG', NULL),
+(25, 'he', '×¢×‘×¨×™×ª', 'Hebrew', 'he_IL', NULL),
+(26, 'is', 'Islenska', 'Icelandic', 'is_IS', NULL),
+(27, 'gre', 'Î•Î»Î»Î·Î½Î¹ÎºÎ¬', 'Greek', 'el_GR', NULL),
+(28, 'sl', 'slovenÅ¡Äina', 'Slovenian', 'sl_SI', NULL),
+(29, 'lt', 'LietuviÅ³ kalba', 'Lithuanian', 'lt_LT', NULL),
+(31, 'hr', 'Hrvatski jezik', 'Croatian', 'hr_HR', NULL),
+(33, 'ro', 'RomÃ¢nÄƒ', 'Romanian', 'ro_RO', NULL),
+(34, 'ar', 'Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©', 'Arabic', 'ar_AR', NULL),
+(35, 'ca', 'CatalÃ ', 'Catalan', 'ca_ES', NULL),
+(37, 'ukr', 'ÑƒÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ° Ð¼Ð¾Ð²Ð°', 'Ukrainian', 'uk_UA', NULL),
+(38, 'sr', 'ÑÑ€Ð¿ÑÐºÐ¸', 'Serbian', 'sr_RS', NULL),
+(40, 'pt-BR', 'Portuguese Brazil', 'Portuguese Brazil', 'pt_BR', 10),
+(42, 'vi', 'Tiáº¿ng Viá»‡t', 'Vietnamese', 'vi_VI', NULL);
