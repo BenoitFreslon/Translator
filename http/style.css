@@ -1,0 +1,20 @@
+<!--
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+}
+body {
+	background-color: #FFFFFF;
+}
+input,option,select,textarea {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+td {
+	text-align: center;
+	margin: 2px;
+	padding: 2px;
+}
+
+-->
