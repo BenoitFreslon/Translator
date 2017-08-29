@@ -1,5 +1,5 @@
 # Translator
-HTML/CSS PHP, MYSQL Translate module to export .xml or .plist
+HTML/CSS PHP, MYSQL Translate module to export .xml or .plist for Flash, Animate, Unity, XCode.
 
 # Installation
 
