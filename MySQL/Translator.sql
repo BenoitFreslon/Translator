@@ -152,7 +152,7 @@ ALTER TABLE `tr_translator`
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 INSERT INTO `tr_translator` (`id_translator`, `id_language`, `nickname`, `password`, `email`) VALUES
-(2, 6, 'admin', 'root2017', 'contact@benoitfreslon.com');
+(0, 1, 'admin', 'root2017', 'contact@benoitfreslon.com');
 
 INSERT INTO `tr_language` (`id_language`, `code`, `language`, `english`, `representation`, `parent_id_language`) VALUES
 (1, 'en', 'English', 'English', 'en_US', NULL),
